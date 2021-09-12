@@ -1,0 +1,10 @@
+{
+  "navigationStyle": "custom",
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
+    "trace-item": "/components/trace-item/trace-item",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "u-modal": "/node-modules/uview-ui/components/u-modal/u-modal"
+  }
+}

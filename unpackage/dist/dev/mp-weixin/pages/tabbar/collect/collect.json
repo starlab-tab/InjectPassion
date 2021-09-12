@@ -1,0 +1,9 @@
+{
+  "navigationBarBackgroundColor": "#333333",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "Collect",
+  "usingComponents": {
+    "collect": "/components/collect/collect",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore"
+  }
+}

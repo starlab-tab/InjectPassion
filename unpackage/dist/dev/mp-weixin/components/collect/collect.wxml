@@ -1,0 +1,1 @@
+<view><block wx:if="{{item.mark==='freebuf'}}"><fb-item vue-id="1acc5dec-1" item="{{item}}" bind:__l="__l"></fb-item></block><block wx:if="{{item.mark==='anquanke'}}"><aqk-item vue-id="1acc5dec-2" item="{{item}}" bind:__l="__l"></aqk-item></block><block wx:if="{{item.mark==='xianzhi'}}"><xz-item vue-id="1acc5dec-3" item="{{item}}" bind:__l="__l"></xz-item></block></view>

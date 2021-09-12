@@ -1,0 +1,11 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "u-navbar": "/node-modules/uview-ui/components/u-navbar/u-navbar",
+    "u-parse": "/node-modules/uview-ui/components/u-parse/u-parse",
+    "u-back-top": "/node-modules/uview-ui/components/u-back-top/u-back-top",
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast",
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup"
+  }
+}

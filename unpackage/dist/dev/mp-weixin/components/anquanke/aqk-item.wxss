@@ -1,0 +1,159 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.aqk-item.data-v-ed382dde {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  margin: 20rpx;
+  border-bottom: solid 2rpx #f0f0f0;
+}
+.aqk-item .top-info.data-v-ed382dde {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.aqk-item .top-info .title.data-v-ed382dde {
+  display: block;
+  padding: 0 40rpx 0 20rpx;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+.aqk-item .top-info .action.data-v-ed382dde {
+  position: absolute;
+  right: 16rpx;
+  width: 50rpx;
+  height: 50rpx;
+  z-index: 1;
+  margin-top: 6rpx;
+}
+.aqk-item .mid-info.data-v-ed382dde {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-top: 20rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.aqk-item .mid-info .desc.data-v-ed382dde {
+  padding: 0 20rpx 0 20rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  color: #999999;
+  font-size: 25rpx;
+  line-height: 1.7;
+  word-break: break-word;
+  width: 68%;
+}
+.aqk-item .mid-info .cover.data-v-ed382dde {
+  width: 230rpx;
+  height: 160rpx;
+}
+.aqk-item .mid-info .cover .tag.data-v-ed382dde {
+  position: absolute;
+  right: 28rpx;
+  margin-top: 10rpx;
+  line-height: 1;
+  padding: 4rpx 10rpx;
+  font-size: 23rpx;
+  border-radius: 4rpx;
+  z-index: 1;
+  background-color: #262626;
+  opacity: 0.7;
+  border-color: transparent;
+  color: #fff;
+}
+.aqk-item .bottom-info.data-v-ed382dde {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  margin: 20rpx 0 20rpx 0;
+  font-size: 24rpx;
+  color: #999999;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+}
+.aqk-item .bottom-info .author.data-v-ed382dde {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+          align-items: flex-end;
+}
+.aqk-item .bottom-info .author .icons.data-v-ed382dde {
+  margin-left: 20rpx;
+}
+.aqk-item .bottom-info .author .name.data-v-ed382dde {
+  margin-left: 16rpx;
+}
+.aqk-item .bottom-info .author .name.verify.data-v-ed382dde {
+  color: #CC6633 !important;
+}
+.aqk-item .bottom-info .author .name.official.data-v-ed382dde {
+  color: #993333 !important;
+}
+.aqk-item .bottom-info .author image.data-v-ed382dde {
+  width: 26rpx;
+  height: 26rpx;
+  margin-left: 10rpx;
+  margin-bottom: 2rpx;
+}
+

@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "timeline": "/components/timeline/timeline",
+    "u-loadmore": "/node-modules/uview-ui/components/u-loadmore/u-loadmore",
+    "timeline-item": "/components/timeline/timelineItem"
+  }
+}

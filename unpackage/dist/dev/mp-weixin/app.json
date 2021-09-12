@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/tabbar/index/index",
+    "pages/tabbar/collect/collect",
+    "pages/tabbar/analysis/analysis",
+    "pages/tabbar/bay/bay",
+    "pages/tabbar/attention/attention",
+    "pages/world/world",
+    "pages/freebuf/detail",
+    "pages/anquanke/detail",
+    "pages/anquanke/360week",
+    "pages/xianzhi/detail",
+    "pages/trace/trace",
+    "pages/newsflash/newsflash",
+    "pages/cve/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "InjectPassion",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#8cb6c0",
+    "backgroundColor": "#fff",
+    "height": "70",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/index/index",
+        "iconPath": "static/tabbar/ic-index.png",
+        "selectedIconPath": "static/tabbar/ic-index-active.png"
+      },
+      {
+        "pagePath": "pages/tabbar/collect/collect",
+        "iconPath": "static/tabbar/ic-collect.png",
+        "selectedIconPath": "static/tabbar/ic-collect-active.png"
+      },
+      {
+        "pagePath": "pages/tabbar/attention/attention",
+        "iconPath": "static/tabbar/ic-attention.png",
+        "selectedIconPath": "static/tabbar/ic-attention-active.png"
+      },
+      {
+        "pagePath": "pages/tabbar/analysis/analysis",
+        "iconPath": "static/tabbar/ic-analysis.png",
+        "selectedIconPath": "static/tabbar/ic-analysis-active.png"
+      },
+      {
+        "pagePath": "pages/tabbar/bay/bay",
+        "iconPath": "static/tabbar/ic-bay.png",
+        "selectedIconPath": "static/tabbar/ic-bay-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

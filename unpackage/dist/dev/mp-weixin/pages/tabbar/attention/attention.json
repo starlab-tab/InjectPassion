@@ -1,0 +1,12 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#333333",
+  "navigationBarTitleText": "Attention",
+  "usingComponents": {
+    "u-tabs-swiper": "/node-modules/uview-ui/components/u-tabs-swiper/u-tabs-swiper",
+    "newsflash": "/components/newsflash/newsflash",
+    "cve": "/components/cve/cve",
+    "u-popup": "/node-modules/uview-ui/components/u-popup/u-popup",
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

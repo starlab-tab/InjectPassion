@@ -1,0 +1,1 @@
+<view class="{{['u-back-top data-v-35c6fa24','u-back-top--mode--'+mode]}}" style="{{$root.s0}}"><block wx:if="{{!$slots.default}}"><view class="data-v-35c6fa24"><u-icon vue-id="f9ce693c-1" name="{{icon}}" custom-style="{{iconStyle}}" class="data-v-35c6fa24" bind:__l="__l"></u-icon></view></block><block wx:else><slot></slot></block></view>

@@ -1,0 +1,1 @@
+<view><block wx:if="{{connectTheWorld}}"><web-view class="vue-ref" src="{{connectTheWorld}}" data-ref="web"></web-view></block></view>

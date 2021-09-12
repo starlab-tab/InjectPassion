@@ -1,0 +1,17 @@
+{
+  "name": "InjectPassion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "js-base64": "^3.4.3",
+    "node-sass": "^6.0.1",
+    "uview-ui": "^1.6.0"
+  }
+}

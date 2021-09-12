@@ -1,0 +1,82 @@
+正文
+<div\s*class="articlecontent"\s*\S*?>([\s\S]*?)<\/div>-->\s*<\/div>\s*<\/div>
+
+目录
+remove
+<div id="toc_container".*<\/div>
+
+remove
+src="https:\/\/www.freebuf.com\/buf\/themes\/freebuf\/images\/grey.gif"
+
+replace
+data-original src
+
+remove
+alt\s*=\s*"\s*"\s*width="([\s\S]*?)"\s*height="([\s\S]*?)"\s*?
+
+remove
+<noscript>.*<\/noscript>
+
+remove
+<style>.*<\/style>
+
+remove
+<!--(.|[\r\n])*?-->
+
+remove
+padding-right: 160px;
+
+replace
+div style="position: relative;
+
+
+
+replace
+
+href="..
+
+href="https://www.freebuf.com/mob
+
+
+评论
+<div\s*class="comment-list"\s*\S*?>([\s\S]*?)<\/div>\s*<div class="commentshow">
+
+小程序/更多精彩
+<div class="wechatcodeDiv">([\s\S]*?)<\/a>([\s\S]*?)<\/a>\s*<\/div>
+
+<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>
+
+
+
+
+<style> .articlecontent { box-sizing: border-box; border: 1px solid #e0e1e5; border-radius: 4px; -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05); box-shadow: 0 1px 1px rgba(0,0,0,.05); padding: 10px 15px } .articlecontent h2 { font-size: 18px; font-weight: bold; color: #373838; margin: 30px 0px 15px 0px; }  .articlecontent h3 { font-size: 16px; font-weight: bold; color: #0070c0; margin: 20px 0px 15px 0px; }  .articlecontent p a { color: #069aef; text-decoration: underline; }  .articlecontent .title { // padding-right: 20px; }  .articlecontent .title h2 { float: left; width: 100%; font-size: 25px; line-height: 34px; margin: 0px; padding-bottom: 5px; font-weight: bold; max-height: 150px; overflow: hidden; //border-bottom: solid 1px #f0f0f0; }  .articlecontent .title h2>span { display: inline-block; width: 68px; height: 22px; background: url(https://image.3001.net/images/header/icon-zhaopin-small.png) no-repeat center; margin-left: 10px; }  .articlecontent .title span { display: inline-block; }    .articlecontent .property { float: left; width: 100%; line-height: 21px; margin-top: 15px; margin-bottom: 80px; }  .articlecontent .property span { float: left; height: 22px; }  .articlecontent .property .coin { padding-right: 14px; }  .articlecontent .property .name { padding-left: 18px; padding-right: 0px; height: 20px; line-height: 20px; background: url(https://image.3001.net/images/new/news-icon.png) no-repeat left 3px; }  .articlecontent .property .name a { display: inline-block; margin-right: 4px; color: #19a358; font-size: 12px; }  .articlecontent .property .name a:hover { text-decoration: underline; }  .articlecontent .property .icon-f { padding-right: 11px; margin: 5px 0 0; height: 12px; overflow: hidden; }  .articlecontent .property .icon-f a { display: inline-block; height: 12px; padding: 0px; }  .articlecontent .property .icon-f img { margin: 0px; padding: 0px; }  .articlecontent .property .time { padding-left: 17px; padding-right: 12px; color: #b8b8b8; font-size: 12px; background: url(https://image.3001.net/images/new/news-icon.png) no-repeat left -27px; }  .articlecontent .property .look { font-size: 12px; padding-right: 13px; color: #666; margin: 5px 0; }  .articlecontent .property .tags { white-space: pre-line; left: 0px; position: absolute; margin-top: 35px; }  .articlecontent .property .tags_01 { white-space: pre-line; left: 0px; position: absolute; margin-top: 35px; margin-left: 80px; }  .articlecontent .property .look strong { font-weight: normal; color: #19a358; }  .articlecontent .property .rmb { float: left; height: 12px; padding: 4px 14px 0 0px; }  .articlecontent .tags a { display: inline-block; height: 23px; line-height: 21px; color: #666666; padding: 0 10px; border: 1px solid #e2e2e2; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; margin-right: 6px; font-family: "微软雅黑"; text-decoration: none; }  .articlecontent .tags_01 a { display: inline-block; height: 23px; line-height: 21px; color: #666666; padding: 0 10px; border: 1px solid #e2e2e2; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; margin-right: 6px; font-family: "微软雅黑"; text-decoration: none; }  .articlecontent .tags_02 a { display: inline-block; height: 23px; line-height: 21px; color: #666666; padding: 0 10px; border: 1px solid #e2e2e2; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; margin-right: 6px; font-family: "微软雅黑"; text-decoration: none; }  #contenttxt { color: #585858; font-size: 15px; line-height: 26px; padding-top: 10px; width: 100%; border-top: solid 1px #f0f0f0; margin-top: 5px; }  #contenttxt p { font-size: 15px; line-height: 26px; word-wrap: break-word; word-break: break-word; margin-top: 10px; }  #contenttxt p strong, #contenttxt p span { word-wrap: break-word; word-break: break-word; }  #contenttxt font { display: inline-block; }  #contenttxt ol { padding-left: 0; }  #contenttxt p strong { line-height: 24px; }  #contenttxt .img { width: 100%; text-align: center; }  #contenttxt .img img { max-width: 100%; }  #contenttxt blockquote { font-size: 14px; background: #f7f7f7; } </style>
+
+
+// var feedBack = res.data
+// var title = feedBack.match(/<title>\s*.*?\s*<\/title>/)
+// var a_c = feedBack.match(/<div\s*class="articlecontent"\s*\S*?>([\s\S]*?)<\/div>-->\s*<\/div>/)
+// a_c = a_c[0].replace(/<div id="toc_container".*<\/div>/g, '')
+// a_c = a_c.replace(/src="https:\/\/www.freebuf.com\/buf\/themes\/freebuf\/images\/grey.gif"/g, '')
+// a_c = a_c.replace(/data-original/g, 'src')
+// a_c = a_c.replace(/alt\s*=\s*"\s*"\s*width="([\s\S]*?)"\s*height="([\s\S]*?)"\s*?/g, '')
+// a_c = a_c.replace(/<noscript>.*<\/noscript>/g, '')
+// a_c = a_c.replace(/<style>([\s\S]*?)<\/style>/g, '')
+// a_c = a_c.replace(/<!--(.|[\r\n])*?-->/g, '')
+// // a_c = a_c.replace(/div\s*style\s*=\s*"position\s*:\s*relative;/g, 'div style="position: relative;padding-right:160px')
+// a_c = a_c.replace(/href="\.\./g, 'href="https://www.freebuf.com/mob')
+// a_c = a_c.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/g, '')
+// a_c = a_c.replace(/<div class="wechatcodeDiv">([\s\S]*?)<\/div>\s*<div class="newlabelDiv">([\s\S]*)<div class="share-new clearfix">\s*<\/div>\s*<\/div>/g,'')
+// a_c = a_c.replace(/padding-right: 160px;/,'padding-right: 160px; float: left; font-size: 25px; line-height: 34px; margin: 0px; padding-bottom: 5px; font-weight: bold; max-height: 150px; overflow: hidden;')
+// a_c = a_c.replace(/<span class="name"><a/,'<span class="name"><a style="display: inline-block; margin-right: 4px; color: #19a358 !important;text-decoration: none !impotant;"')
+// a_c = a_c.replace(/<span class="name"/,'<span class="name" style="float: left; height: 22px; padding-left: 18px; padding-right: 0px; height: 20px; line-height: 16px; background: url(https://image.3001.net/images/new/news-icon.png) no-repeat left 3px;"')
+// a_c = a_c.replace(/<span class="time"/,'<span class="time" style="float: left; height: 22px; padding-left: 17px; padding-right: 12px; color: #b8b8b8; background: url(https://image.3001.net/images/new/news-icon.png) no-repeat left -27px;"')
+// a_c = a_c.replace(/<span class="look"/,'<span class="look" style="float: left; height: 22px; padding-right: 13px; color: #666;"')
+// // a_c = a_c.replace(/<span class="tags>\s*<a/g, '<span class="tags><a style="display: inline-block; height: 23px; line-height: 21px; color: #666666; padding: 0 10px; border: 1px solid #e2e2e2; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; margin-right: 6px; font-family: "微软雅黑"; text-decoration: none;"')
+// a_c = a_c.replace(/<span class="tags"/, '<span class="tags" style="display: none;"')
+// a_c = a_c.replace(/<span class="tags_01"/, '<span class="tags_01" style="display: none;"')
+// a_c = a_c.replace(/<span class="icon-f"/,'<span class="icon-f" style="float: left; height: 22px; padding-right: 11px; margin: 5px 0 0; height: 12px; overflow: hidden;"')
+// a_c = a_c.replace(/<div><a/g, '<div><a style="color: #666666 !important; text-decoration: none !important;"')
+// a_c = a_c.replace(/"creatByself"/,'"creatByself" style="bottom: -150px !important; width: 40% !important; right: -20px !important;"')
+// a_c = a_c.replace(/"property"/,'"property" style="float: left; width: 100%; line-height: 21px; margin-top: 5px; margin-bottom: 60px; padding-top: 10px; border-top: solid 1px #f0f0f0;"')
+// a_c = a_c.replace(/right:16px;bottom/, 'right:0px;bottom')
+// a_c = a_c.replace(/z-index: 500;/, 'z-index: 500;bottom:-0px;right:0px !important;width: 45%; !important')

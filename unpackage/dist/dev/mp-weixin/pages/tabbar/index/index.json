@@ -1,0 +1,10 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "navbar": "/components/navbar/navbar",
+    "freebuf": "/components/freebuf/freebuf",
+    "anquanke": "/components/anquanke/anquanke",
+    "xianzhi": "/components/xianzhi/xianzhi"
+  }
+}

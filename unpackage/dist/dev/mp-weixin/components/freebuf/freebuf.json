@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-tabs-swiper": "/node-modules/uview-ui/components/u-tabs-swiper/u-tabs-swiper",
+    "u-top-tips": "/node-modules/uview-ui/components/u-top-tips/u-top-tips",
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast",
+    "u-loading": "/node-modules/uview-ui/components/u-loading/u-loading",
+    "c-back-top": "/components/c-back-top/c-back-top",
+    "fb-item": "/components/freebuf/fb-item"
+  }
+}

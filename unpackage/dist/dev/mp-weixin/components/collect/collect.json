@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "fb-item": "/components/freebuf/fb-item",
+    "aqk-item": "/components/anquanke/aqk-item",
+    "xz-item": "/components/xianzhi/xz-item"
+  }
+}

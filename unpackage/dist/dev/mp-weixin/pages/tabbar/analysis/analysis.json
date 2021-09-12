@@ -1,0 +1,12 @@
+{
+  "navigationBarBackgroundColor": "#333333",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "Analysis",
+  "usingComponents": {
+    "u-line-progress": "/node-modules/uview-ui/components/u-line-progress/u-line-progress",
+    "u-toast": "/node-modules/uview-ui/components/u-toast/u-toast",
+    "fb-als": "/components/freebuf/fb-als",
+    "aqk-als": "/components/anquanke/aqk-als",
+    "xz-als": "/components/xianzhi/xz-als"
+  }
+}

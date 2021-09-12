@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-lazy-load": "/node-modules/uview-ui/components/u-lazy-load/u-lazy-load",
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

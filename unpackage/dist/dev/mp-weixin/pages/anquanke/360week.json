@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "uni-icons": "/components/uni-icons/uni-icons",
+    "u-back-top": "/node-modules/uview-ui/components/u-back-top/u-back-top",
+    "aqk-item": "/components/anquanke/aqk-item"
+  }
+}
